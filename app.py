@@ -3,7 +3,7 @@ import streamlit as st
 st.set_page_config(page_title="Deep Learning Fundamentals Suite", page_icon="🧠", layout="wide")
 
 st.title("🧠 Deep Learning Fundamentals Suite")
-st.caption("Inference-only Streamlit app. Models + preprocessors are pulled from your public Hugging Face repos.")
+st.caption("Inference-only Streamlit app. Models + preprocessors are pulled from public Hugging Face repos.")
 
 st.markdown(
     '''
