@@ -11,7 +11,7 @@ REPO_ID = "ash001/imdb-sentiment-simple-rnn"
 
 st.set_page_config(page_title="IMDB Sentiment", page_icon="🎬", layout="wide")
 st.title("🎬 IMDB Movie Review Sentiment (SimpleRNN)")
-st.caption("Repo: ash001/imdb-sentiment-simple-rnn (artifacts/)")
+st.caption("Repo: [ash001/imdb-sentiment-simple-rnn](https://huggingface.co/ash001/imdb-sentiment-simple-rnn)")
 
 cfg = hf_read_json(REPO_ID, "artifacts/config.json")
 max_features = int(cfg["max_features"])
