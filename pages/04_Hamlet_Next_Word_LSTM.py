@@ -10,7 +10,7 @@ REPO_ID = "ash001/hamlet-nextword-lstm"
 
 st.set_page_config(page_title="Hamlet Next Word", page_icon="📜", layout="wide")
 st.title("📜 Next-Word Prediction (LSTM) — Hamlet")
-st.caption("Repo: ash001/hamlet-nextword-lstm (artifacts/)")
+st.caption("Repo: [ash001/hamlet-nextword-lstm](https://huggingface.co/ash001/hamlet-nextword-lstm)")
 
 cfg = hf_read_json(REPO_ID, "artifacts/config.json")
 max_sequence_len = int(cfg["max_sequence_len"])
