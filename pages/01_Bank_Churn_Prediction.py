@@ -9,7 +9,7 @@ REPO_ID = "ash001/bank-churn-ann"
 
 st.set_page_config(page_title="Bank Churn Prediction", page_icon="🏦", layout="wide")
 st.title("🏦 Bank Customer Churn Prediction (ANN)")
-st.caption("Repo: ash001/bank-churn-ann (artifacts/)")
+st.caption("Repo: [ash001/bank-churn-ann](https://huggingface.co/ash001/bank-churn-ann)")
 
 schema = hf_read_json(REPO_ID, "artifacts/schema.json")
 # Churn datasets are usually imbalanced (~20% churn). A 0.5 threshold often predicts "stay".
