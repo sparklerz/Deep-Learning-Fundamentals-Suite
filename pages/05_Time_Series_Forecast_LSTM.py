@@ -11,7 +11,7 @@ REPO_ID = "ash001/timeseries-forecast-lstm"
 
 st.set_page_config(page_title="Time Series Forecast", page_icon="📈", layout="wide")
 st.title("📈 Time Series Forecasting (PyTorch LSTM)")
-st.caption("Repo: ash001/timeseries-forecast-lstm (artifacts/)")
+st.caption("Repo: [ash001/timeseries-forecast-lstm](https://huggingface.co/ash001/timeseries-forecast-lstm)")
 
 cfg = hf_read_json(REPO_ID, "artifacts/config.json")
 window_size = int(cfg["window_size"])
