@@ -11,7 +11,7 @@ REPO_ID = "ash001/nyc-taxi-fare-regression-ann"
 
 st.set_page_config(page_title="NYC Taxi Fare Regression", page_icon="🚕", layout="wide")
 st.title("🚕 NYC Taxi Fare Regression (PyTorch ANN)")
-st.caption("Repo: ash001/nyc-taxi-fare-regression-ann (artifacts/)")
+st.caption("Repo: [ash001/nyc-taxi-fare-regression-ann](https://huggingface.co/ash001/nyc-taxi-fare-regression-ann)")
 
 
 def haversine_km(lat1, lon1, lat2, lon2):
@@ -200,3 +200,4 @@ if st.button("Predict fare", type="primary"):
 
     st.metric("Predicted fare (USD)", f"{pred:.2f}")
     st.caption(f"Computed trip distance: {dist:.2f} km")
+
