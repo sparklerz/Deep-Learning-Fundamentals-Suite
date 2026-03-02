@@ -4,7 +4,7 @@ A **multipage Streamlit app** that showcases core Deep Learning tasks (tabular, 
 
 ## ✨ What’s inside (Mini-projects)
 
-- **🏦 Bank Customer Churn Prediction (ANN | Keras)** — `ash001/bank-churn-ann`
+- **🏦 Bank Customer Churn Prediction (ANN | Keras)** — [`ash001/bank-churn-ann`](https://huggingface.co/ash001/bank-churn-ann/tree/main)
 - **🚕 NYC Taxi Fare Regression (ANN | PyTorch)** — `ash001/nyc-taxi-fare-regression-ann`
 - **🎬 IMDB Sentiment Analysis (SimpleRNN | Keras)** — `ash001/imdb-sentiment-simple-rnn`
 - **📜 Hamlet Next-Word Prediction (LSTM | Keras)** — `ash001/hamlet-nextword-lstm`
