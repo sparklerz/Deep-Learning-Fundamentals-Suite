@@ -12,7 +12,7 @@ REPO_ID = "ash001/cats-dogs-transferlearning-cnn"
 
 st.set_page_config(page_title="Cats vs Dogs", page_icon="🐱", layout="wide")
 st.title("🐱🐶 Cats vs Dogs (Transfer Learning CNN)")
-st.caption("Repo: ash001/cats-dogs-transferlearning-cnn (artifacts/)")
+st.caption("Repo: [ash001/cats-dogs-transferlearning-cnn](https://huggingface.co/ash001/cats-dogs-transferlearning-cnn)")
 
 cfg = hf_read_json(REPO_ID, "artifacts/config.json")
 image_size = int(cfg["image_size"])
